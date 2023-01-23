@@ -1,0 +1,132 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.links-container a {
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  background-color: #1c1c1e;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.links-container a:hover {
+  background-color: white;
+  color: #1c1c1e;
+}
+
+/* main big container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5% 5%;
+  height: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* for all of the containers inside main container */
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+/* container for all of the buttons */
+.links-container {
+  gap: 20px;
+  margin: 0;
+}
+
+/* container for about square */
+.about-container {
+  background-color: #1c1c1e;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* container for social medias icons at the bottom */
+.social-container {
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* for icons in the buttons */
+.button-icons {
+  padding-right: 15px;
+}
+
+/* top profile image */
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+  padding: 15px 10px 10px;
+  filter: grayscale(100%);
+}
+
+/* for title style */
+.title {
+  color: #fff;
+  margin: 10px 0 0 0;
+}
+
+/* verify twitter badge */
+.twitter {
+  font-size: 25px;
+  color: #1c9cea;
+}
+
+/* for subtitle */
+.tagline {
+  margin: 5px 0 0 0;
+  color: #99989f;
+}
+
+/* for social medias icons */
+.social-icons {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #2c2c2c;
+}
+
+.social-icons:hover {
+  color: white;
+}
+
+/* back ground color for CV button */
+.cv-btn {
+  background-color: #200a4d;
+  background-image: linear-gradient(90deg, #200a4d 0%, #640bf2 100%);
+}
+
+.cv-btn:hover {
+  background-color: white;
+  background-image: none;
+}
+
+.about-title {
+  color: #fff;
+  margin: 0;
+  padding: 15px 0 5px 0;
+}
+
+.about-text {
+  margin: 0;
+  color: #99989f;
+  padding: 5px 20px 20px 20px;
+  text-align: center;
+}
